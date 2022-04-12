@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navContainer {
+  background-color: #edeae7;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  background-color: #edeae7;
+  color: black;
+  font-size: 24px;
+  padding: 13px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    background-color: black;
+    color: whitesmoke;
+  }
+}

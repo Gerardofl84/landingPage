@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header id="header">
+      <section>
+        <nav id="nav-bar" class="navContainer">
+          <img src="https://www.haciendonetworkmarketing.com/wp-content/uploads/2022/04/logolp.webp" width="150px" height="150px" alt="logo" title="logolp" id="header-img" class="item">
+          <a href="#header" class="nav-link item">Home</a>
+          <a href="#video" class="nav-link item">About us</a>
+          <a href="#form" class="nav-link item">Contact</a>
+        </nav>
+      </section>
+    </header>
+    <main>
+      <section class="navContainer">
+        <video id="video" width="500px" height="350px" controls>
+          <source src="" type="video/mp4">
+        </video>
+      </section>
+      <article class="navContainer">
+        <fieldset>
+          <legend>Contact Us</legend>
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <p>
+              <label for="email">email</label>
+              <input id="email" type="email" name="email" placeholder="example@domain" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+            </p>
+            <br>
+            <p>
+              <input id="submit" type="submit" value="submit">
+            </p>
+
+          </form>
+        </fieldset>
+      </article>
+    </main>
+    <footer></footer>
+  </body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>

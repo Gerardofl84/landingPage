@@ -4,10 +4,14 @@
   box-sizing: border-box;
 }
 
+.fixed {
+  position: fixed;
+  left: 5px;
+}
+
 .navContainer {
   background-color: #edeae7;
   padding: 10px;
-  position: sticky;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -21,6 +25,25 @@
   padding: 13px;
 }
 
+.videoContainer {
+  background-color: #edeae7;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.formContainer {
+  background-color: #edeae7;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .nav-link {
   text-decoration: none;
 }
@@ -28,6 +51,7 @@
 img {
   max-width: 100%;
   height: auto;
+  opacity: 0.6;
 }
 
 @media only screen and (max-width: 600px) {

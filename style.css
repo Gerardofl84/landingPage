@@ -7,6 +7,7 @@
 .navContainer {
   background-color: #edeae7;
   padding: 10px;
+  position: sticky;
   display: flex;
   flex-direction: row;
   justify-content: center;
